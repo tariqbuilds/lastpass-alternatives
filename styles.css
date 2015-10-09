@@ -1,0 +1,33 @@
+td ul li {
+  margin-bottom: 15px;
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+table>thead>tr>th, .table>thead>tr>th, table>tbody>tr>th, .table>tbody>tr>th, table>tfoot>tr>th, .table>tfoot>tr>th, table>thead>tr>td, .table>thead>tr>td, table>tbody>tr>td, .table>tbody>tr>td, table>tfoot>tr>td, .table>tfoot>tr>td {
+  padding: 20px;
+}
+
+table img {
+  width: 30px;
+}
+
+table img.logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.page-header {
+  text-align: center;
+}
