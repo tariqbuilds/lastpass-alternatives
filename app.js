@@ -48,14 +48,14 @@
 
     .directive('headerRow', function () {
       return {
-        templateUrl: '/templates/headerRow.html',
+        templateUrl: 'templates/headerRow.html',
       };
     })
 
     .directive('alternativeRow', function () {
       return {
         restrict: 'EA',
-        templateUrl: '/templates/alternativeRow.html',
+        templateUrl: 'templates/alternativeRow.html',
         link: function (scope) {
           
           scope.getLogoImage = function (name) {
