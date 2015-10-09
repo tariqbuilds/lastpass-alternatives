@@ -1,0 +1,41 @@
+<tr>
+
+  <!-- Logo & Name -->
+  <td>
+    <img ng-src="{{ passwordManager.logo }}">
+    <h3>{{ passwordManager.name }}</h3>
+  </td>
+
+  <!-- Prices -->
+  <td>
+
+    <ul class="list-unstyled">
+      <li ng-repeat="service in passwordManager.prices">
+        <strong>{{ service.name }}</strong> for
+        {{ service.price }}
+      </li>
+    </ul>
+
+  </td>
+
+  <!-- Browser Plugins -->
+  <td>
+    <img 
+      ng-repeat="browser in passwordManager.browser_plugins" 
+      ng-src="{{ getLogoImage(browser) }}">
+  </td>
+
+  <!-- Mobile Apps -->
+  <td>
+    <img 
+      ng-repeat="platform in passwordManager.mobile_apps" 
+      ng-src="{{ getLogoImage(platform) }}">
+  </td>
+
+  <!-- Desktop Apps -->
+  <td>
+    <img 
+      ng-repeat="platform in passwordManager.desktop_apps" 
+      ng-src="{{ getLogoImage(platform) }}">
+  </td>
+</tr>
