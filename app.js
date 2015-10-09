@@ -6,6 +6,7 @@
 
       $scope.passwordManagers = [
         {
+          link: 'https://agilebits.com/store',
           name: '1Password',
           logo: 'https://da9ipfiyfnxgu.cloudfront.net/images/pristine/icons/product-1password-mac-windows-bundle.png?1442119322',
           prices: [
@@ -23,6 +24,32 @@
             },
             {
               name: 'iOS & Android apps',
+              price: 'Free',
+            }
+          ],
+          browser_plugins: [
+            'chrome',
+            'firefox',
+            'safari',
+            'opera',
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+            'windows',
+            'osx',
+          ],
+
+        },
+        {
+          link: 'http://keepass.info/',
+          name: 'KeePass',
+          logo: 'http://keepass.info/images/icons/keepass_512x512.png',
+          prices: [
+            {
+              name: 'Open Source Version',
               price: 'Free',
             }
           ],

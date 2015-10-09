@@ -1,9 +1,13 @@
-<tr>
+<tr class="animated fadeInUp">
 
   <!-- Logo & Name -->
   <td>
-    <img ng-src="{{ passwordManager.logo }}">
-    <h3>{{ passwordManager.name }}</h3>
+
+    <a ng-href="{{ passwordManager.link }}" class="lead">
+
+      <img ng-src="{{ passwordManager.logo }}">
+      {{ passwordManager.name }}
+    </a>
   </td>
 
   <!-- Prices -->
