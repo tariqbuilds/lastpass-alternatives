@@ -3,9 +3,8 @@
   <!-- Logo & Name -->
   <td>
 
+    <img class="logo" ng-src="{{ passwordManager.logo }}">
     <a ng-href="{{ passwordManager.link }}" class="lead">
-
-      <img ng-src="{{ passwordManager.logo }}">
       {{ passwordManager.name }}
     </a>
   </td>
@@ -15,7 +14,7 @@
 
     <ul class="list-unstyled">
       <li ng-repeat="service in passwordManager.prices">
-        <strong>{{ service.name }}</strong> for
+        {{ service.name }} for
         {{ service.price }}
       </li>
     </ul>
