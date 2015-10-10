@@ -1,4 +1,4 @@
-# LastPass Alternatives
+# [LastPass Alternatives](http://afaqurk.github.io/lastpass-alternatives/)
 
 A sensible list of LastPass alternatives.
 
