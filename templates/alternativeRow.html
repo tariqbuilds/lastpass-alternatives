@@ -3,7 +3,11 @@
   <!-- Logo & Name -->
   <td>
 
-    <img class="logo" ng-src="{{ passwordManager.logo }}">
+    <img 
+      ng-if="passwordManager.logo" 
+      class="logo" 
+      ng-src="{{ passwordManager.logo }}">
+
     <a ng-href="{{ passwordManager.link }}" class="lead">
       {{ passwordManager.name }}
     </a>
@@ -14,8 +18,8 @@
 
     <ul class="list-unstyled">
       <li ng-repeat="service in passwordManager.prices">
-        {{ service.name }} for
-        {{ service.price }}
+        {{ service.name }} {{ (service.name)?"-":'' }}
+        <strong>{{ service.price }}</strong>
       </li>
     </ul>
 
@@ -24,21 +28,27 @@
   <!-- Browser Plugins -->
   <td>
     <img 
-      ng-repeat="browser in passwordManager.browser_plugins" 
-      ng-src="{{ getLogoImage(browser) }}">
+      ng-repeat="browser in passwordManager.browser_plugins"
+      ng-src="{{ getLogoImage(browser) }}"
+      alt="{{ browser | uppercase }} Logo"
+      title="{{ browser | uppercase }} Plugin is available.">
   </td>
 
   <!-- Mobile Apps -->
   <td>
     <img 
-      ng-repeat="platform in passwordManager.mobile_apps" 
-      ng-src="{{ getLogoImage(platform) }}">
+      ng-repeat="platform in passwordManager.mobile_apps"
+      ng-src="{{ getLogoImage(platform) }}"
+      alt="{{ platform | uppercase }} Mobile Logo"
+      title="{{ platform | uppercase }} Mobile App available.">
   </td>
 
   <!-- Desktop Apps -->
   <td>
     <img 
       ng-repeat="platform in passwordManager.desktop_apps" 
-      ng-src="{{ getLogoImage(platform) }}">
+      ng-src="{{ getLogoImage(platform) }}"
+      alt="{{ platform | uppercase }} Logo"
+      title="{{ platform | uppercase }} Desktop App available.">
   </td>
 </tr>

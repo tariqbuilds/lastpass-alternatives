@@ -6,6 +6,77 @@
 
       $scope.passwordManagers = [
         {
+          link: 'https://encryptr.org/',
+          name: 'Encryptr',
+          prices: [
+            {
+              name: 'Open Source',
+              price: 'Free',
+            }
+          ],
+          browser_plugins: [
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+            'windows',
+            'osx',
+            'linux',
+          ],
+
+        },
+        {
+          link: 'https://www.dashlane.com/passwordmanager',
+          name: 'Dashlane',
+          logo: 'https://pbs.twimg.com/profile_images/378800000742436759/5236c9e33e0703c2d2b45db796fdbc7b_normal.png',
+          prices: [
+            {
+              name: '',
+              price: 'Free',
+            }
+          ],
+          browser_plugins: [
+            'chrome',
+            'firefox',
+            'safari',
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+            'windows',
+            'osx',
+            'linux',
+          ],
+
+        },
+        {
+          link: 'http://www.roboform.com/',
+          name: 'RoboForm',
+          logo: 'http://www.roboform.com/marketing-images/rfp/logo_top_01.png',
+          prices: [
+            {
+              name: '',
+              price: '$9.99 1st year',
+            }
+          ],
+          browser_plugins: [
+            'chrome',
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+            'windows',
+            'osx',
+          ],
+
+        },
+        {
           link: 'https://agilebits.com/store',
           name: '1Password',
           logo: 'https://da9ipfiyfnxgu.cloudfront.net/images/pristine/icons/product-1password-mac-windows-bundle.png?1442119322',
@@ -68,7 +139,59 @@
             'osx',
           ],
 
-        }
+        },
+        {
+          link: 'https://passopolis.com/',
+          name: 'Passopolis',
+          prices: [
+            {
+              name: 'Open Source',
+              price: 'Free',
+            }
+          ],
+          browser_plugins: [
+            'chrome',
+            'firefox',
+            'safari',
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+          ],
+
+        },
+        {
+          link: 'https://keepersecurity.com/',
+          name: 'Keeper',
+          prices: [
+            {
+              name: 'One Device',
+              price: '$9.99/yr',
+            },
+            {
+              name: 'Unlimitd Device',
+              price: '$29.99/yr',
+            },
+            {
+              name: 'Enterprise',
+              price: '$750/yr & $48/user/yr',
+            },
+          ],
+          browser_plugins: [
+            'chrome',
+            'firefox',
+            'safari',
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+          ],
+
+        },
       ];
 
     })
