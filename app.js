@@ -95,7 +95,7 @@
             },
             {
               name: 'iOS & Android apps',
-              price: 'Free',
+              price: 'Free on iOS (pro features $5.99), $9.99 on Android',
             }
           ],
           browser_plugins: [
