@@ -163,6 +163,35 @@
 
         },
         {
+          link: 'http://enpass.io/',
+          name: 'Enpass',
+          prices: [
+            {
+              name: 'Desktop',
+              price: 'Free (upto 20 items)',
+            },
+            {
+              name: 'Life-time Pro',
+              price: 'One time $9.99 / platform',
+            },
+          ],
+          browser_plugins: [
+            'chrome',
+            'firefox',
+            'safari',
+          ],
+          mobile_apps: [
+            'ios',
+            'android',
+          ],
+          desktop_apps: [
+            'windows',
+            'osx',
+            'linux',
+          ],
+
+        },
+        {
           link: 'https://keepersecurity.com/',
           name: 'Keeper',
           prices: [
