@@ -34,7 +34,7 @@
             {
               name: '',
               price: 'Free',
-            }
+            },
             {
               name: 'Premium - Sync to all devices',
               price: '$39.99 / yr'
