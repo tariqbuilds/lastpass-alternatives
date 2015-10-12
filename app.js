@@ -32,7 +32,7 @@
           logo: 'https://pbs.twimg.com/profile_images/378800000742436759/5236c9e33e0703c2d2b45db796fdbc7b_normal.png',
           prices: [
             {
-              name: '',
+              name: 'Standard',
               price: 'Free',
             },
             {
@@ -97,8 +97,12 @@
               price: '$49.99',
             },
             {
-              name: 'iOS & Android apps',
-              price: 'Free on iOS (pro features $5.99), $9.99 on Android',
+              name: 'iOS app',
+              price: 'Free (Pro features $5.99)',
+            },
+            {
+              name: 'Android app',
+              price: 'Free (Pro features $9.99)'
             }
           ],
           browser_plugins: [
@@ -233,7 +237,28 @@
 
         },
       ];
-
+      
+      // -> Fisher–Yates shuffle algorithm
+      var shuffleArray = function(array) {
+        var m = array.length, t, i;
+      
+        // While there remain elements to shuffle
+        while (m) {
+          // Pick a remaining element…
+          i = Math.floor(Math.random() * m--);
+      
+          // And swap it with the current element.
+          t = array[m];
+          array[m] = array[i];
+          array[i] = t;
+        }
+      
+        return array;
+      };
+      
+      // shuffle the psasword managers randomly.
+      shuffleArray($scope.passwordManagers);
+      
     })
 
     .directive('headerRow', function () {
