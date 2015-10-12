@@ -172,10 +172,14 @@
           prices: [
             {
               name: 'Desktop',
-              price: 'Free (upto 20 items)',
+              price: 'Free',
             },
             {
-              name: 'Life-time Pro',
+              name: 'Mobile Apps (upto 20 items)',
+              price: 'Free',
+            },
+            {
+              name: 'Mobile Apps: (>20 items)',
               price: 'One time $9.99 / platform',
             },
           ],
