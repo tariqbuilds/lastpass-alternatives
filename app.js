@@ -67,6 +67,7 @@
           ],
           browser_plugins: [
             'chrome',
+            'firefox',
           ],
           mobile_apps: [
             'ios',
