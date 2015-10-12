@@ -17,7 +17,6 @@
           browser_plugins: [
           ],
           mobile_apps: [
-            'ios',
             'android',
           ],
           desktop_apps: [
