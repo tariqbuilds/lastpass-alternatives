@@ -218,6 +218,9 @@
             'android',
           ],
           desktop_apps: [
+            'windows',
+            'osx',
+            'linux',
           ],
 
         },
