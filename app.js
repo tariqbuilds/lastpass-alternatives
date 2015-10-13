@@ -6,6 +6,39 @@
 
       $scope.passwordManagers = [
         {
+          link: 'https://www.zoho.com/vault/',
+          name: 'Zoho Vault',
+          prices: [
+            {
+              name: 'Personal Use',
+              price: 'Free',
+            },
+            {
+              name: 'Small Teams',
+              price: '$1 / user / yr',
+            },
+            {
+              name: 'Medium Teams',
+              price: '$4 / user / yr',
+            },
+            {
+              name: 'Enterprise Teams',
+              price: '$7 / user / yr',
+            },
+          ],
+          browser_plugins: [
+            'chrome',
+            'firefox',
+          ],
+          mobile_apps: [
+            'android',
+            'ios',
+          ],
+          desktop_apps: [
+          ],
+
+        },
+        {
           link: 'https://encryptr.org/',
           name: 'Encryptr',
           prices: [
