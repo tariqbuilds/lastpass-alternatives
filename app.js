@@ -135,7 +135,7 @@
             },
             {
               name: 'Android app',
-              price: 'Free (Pro features $9.99)'
+              price: '$9.99'
             }
           ],
           browser_plugins: [
