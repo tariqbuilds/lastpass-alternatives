@@ -118,16 +118,8 @@
           logo: 'https://da9ipfiyfnxgu.cloudfront.net/images/pristine/icons/product-1password-mac-windows-bundle.png?1442119322',
           prices: [
             {
-              name: '1Password Mac + Windows Bundle',
-              price: '$69.99',
-            },
-            {
-              name: '1Password 5 for Mac',
-              price: '$49.99',
-            },
-            {
-              name: '1Password 4 for Windows',
-              price: '$49.99',
+              name: '1Password Mac + Windows',
+              price: '$64.99',
             },
             {
               name: 'iOS app',
