@@ -29,10 +29,12 @@
           browser_plugins: [
             'chrome',
             'firefox',
+            'safari'
           ],
           mobile_apps: [
             'android',
             'ios',
+            'windows'
           ],
           desktop_apps: [
           ],
